@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+}
+html {
+  color: rgb(71, 66, 66);
+  font-family:'Courier New', Courier, monospace;
+}
+a:link {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+
+/*/////////////*/
+header,
+footer,
+section {
+  width: 80%;
+  max-width: 960px;
+  margin: 10px auto;
+  display: block;
+}
+section {
+  padding: 1em;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0 0 0 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.3em;
+}
+
+#experience {
+  border: 1px solid lightblue;
+  border-radius: 15px;
+}
+#experience ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+  }
+#experience li {
+    border-radius: 5px;
+    border: 2px solid rgb(40, 40, 95);
+    color: rgb(40, 40, 95);
+    padding: 0.25rem 0.75rem;
+    margin: 0 0.5rem 0.5rem 0;
+    background-color: rgb(237, 242, 245);
+  }
+
+
+#skills {
+  border: 1px solid rgb(173, 230, 203);
+  border-radius: 15px;
+}
+#skills ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+}
+#skills li {
+  border-radius: 5px;
+  border: 2px solid green;
+  color: green;
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0 0.5rem 0.5rem 0;
+  background-color: rgb(233, 241, 233);
+}
+
+#leave_message {
+    border: 1px solid saddlebrown;
+  border-radius: 15px;
+}
+#leave_message label {
+    font-style: italic;
+}
+
+#leave_message input, #leave_message textarea {
+    border: 1px solid saddlebrown;
+    border-radius: 3px;
+    width: 100%;
+    margin: 5px auto;
+    font-size: 1.1em;
+    color: saddlebrown;
+    font-style: italic;
+}
+#leave_message button {
+    background-color: saddlebrown;
+    border-width:5px;
+    border-style:double;
+    color: white;
+    padding: 3px 15px;
+}
+
+#messages {
+  border: 4px double pink;
+  border-radius: 15px;
+}
+#messages ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+}
+#messages li {
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 5px 15px;
+    border: 2px solid salmon;
+    background-color: rgb(245, 236, 235);
+}
+#messages button { 
+    background-color: rgb(240, 174, 166);
+    border-width:5px;
+    border-style:double;
+    color: white;
+    padding: 3px 15px;
+    display: block;
+    width: 200px;
+}
+
+footer {
+    font-size: 00.8rem;
+    text-align: right;
+}
